@@ -60,7 +60,7 @@ currTeamPoints.sort(reverse=True)
 f = open("test.html", "w", encoding="utf-8")
 
 tableTeams = [
-    "<table style='width:70%; margin-left: auto; margin-right: auto;'>",
+    "<table style='width:85%; margin-left: auto; margin-right: auto;'>",
     """<tr class='main-table'>
         <th>Position</th>
         <th>   </th>
@@ -135,6 +135,7 @@ lines = ["<!DOCTYPE html><html>",
                     background-color: rgb(247, 247, 247);
                 }
                 th {
+                    padding: 5px;
                     text-align:center;
                     color: rgb(64,64,64);
                     background-color: rgb(230, 240, 255);
@@ -146,6 +147,7 @@ lines = ["<!DOCTYPE html><html>",
                     text-align:center;
                     font-family: Inter;
                     font-size: 15px;
+                    color: black;
                 }
             </style>
             <head>
