@@ -6,7 +6,7 @@ def readcsv(name):
         data_read = [row for row in reader]
     return data_read
 
-results = readcsv("results 1 comp.csv")
+results = readcsv("results.csv")
 scoring = readcsv("scoring.csv")
 
 # all of these store something in the form (123, TeamName) or TeamName: someValue
