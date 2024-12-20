@@ -99,7 +99,7 @@ for i in range(0, len(currTeamPoints)):
     elif pos == 2:
         pos = "<td style='color: rgb(192, 192, 192); font-size: 27px; font-weight: 600;'>" + str(pos)
     elif pos == 3:
-        pos = "<td style='color: rgb(140, 120, 83); font-size: 24px; font-weight: 500;'>" + str(pos)
+        pos = "<td style='color: rgb(205,127,50); font-size: 24px; font-weight: 500;'>" + str(pos)
     else:
         pos = "<td>" + str(pos)
     tableTeams.insert(i + 2, "<tr class='main-table table-data'>"
