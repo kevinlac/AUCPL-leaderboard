@@ -1,4 +1,12 @@
 Name,Contest1
-Alice,1
-Bob,2
-Charlie,3
+Team A,10
+Team B,2
+Team C,6
+Team D,5
+Team E,7
+Team F,8
+Team G,4
+Team H,1
+Team I,3
+Team J,9
+Team that did not compete at all,-1
